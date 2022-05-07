@@ -2,6 +2,12 @@
 
 # -- Project information
 
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {'.md': CommonMarkParser}
+
+source_suffix = ['.rst', '.md']
+
 project = 'Lumache'
 copyright = '2021, Graziella'
 author = 'Graziella'
